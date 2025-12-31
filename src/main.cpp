@@ -2,8 +2,11 @@
 
 int main()
 {
-    auto window = sf::RenderWindow(sf::VideoMode({1920u, 1080u}), "CMake SFML Project");
+    auto window = sf::RenderWindow(sf::VideoMode({1280u, 720u}), "Fool Card Game");
     window.setFramerateLimit(144);
+
+    // Green felt-like background for the card table
+    const sf::Color BACKGROUND_COLOR(41, 137, 24);
 
     while (window.isOpen())
     {
@@ -15,7 +18,8 @@ int main()
             }
         }
 
-        window.clear();
+        window.clear(BACKGROUND_COLOR);
+
         window.display();
     }
 }
