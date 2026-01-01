@@ -12,6 +12,12 @@ FetchContent_Declare(SFML
     SYSTEM)
 FetchContent_MakeAvailable(SFML)
 
-add_executable(FoolCardGame src/main.cpp)
+include_directories(include)
+
+add_executable(FoolCardGame
+    "src/main.cpp"
+    "include/Game.hpp"
+    "src/Game.cpp"
+)
 target_compile_features(FoolCardGame PRIVATE cxx_std_17)
 target_link_libraries(FoolCardGame PRIVATE SFML::Graphics)
