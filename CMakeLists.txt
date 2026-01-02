@@ -15,10 +15,15 @@ FetchContent_MakeAvailable(SFML)
 include_directories(include)
 
 add_executable(FoolCardGame
-    "src/main.cpp"
-    "include/Game.hpp"
-    "src/Game.cpp"
-    "include/Card.hpp"
+ "src/main.cpp"
+ "src/Game.cpp"
+ "src/Player.cpp"
+ "src/Human.cpp"
+ "include/Game.hpp"
+ "include/Card.hpp"
+ "include/Player.hpp"
+ "include/Human.hpp"
+ "include/AI.hpp"
 )
 target_compile_features(FoolCardGame PRIVATE cxx_std_17)
 target_link_libraries(FoolCardGame PRIVATE SFML::Graphics)
