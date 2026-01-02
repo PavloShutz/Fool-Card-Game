@@ -2,6 +2,7 @@
 
 namespace Core {
 	class Game {
+	public:
 		Game();
 	};
 }
