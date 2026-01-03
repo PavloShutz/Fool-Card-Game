@@ -48,6 +48,8 @@ namespace Core {
 		Suit suit = Suit::MAX_SUIT;
 	};
 
+	using Pile = std::vector<Card>;
+
 	// TODO: Document this
 	inline bool comp(const Card& card1, const Card& card2, Suit trump) {
 		if ((card1.suit != trump && card2.suit != trump)
