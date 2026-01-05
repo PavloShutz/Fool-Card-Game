@@ -12,7 +12,7 @@ FetchContent_Declare(SFML
     SYSTEM)
 FetchContent_MakeAvailable(SFML)
 
-include_directories(include)
+include_directories("include")
 
 add_executable(FoolCardGame
  "src/main.cpp"
@@ -25,5 +25,11 @@ add_executable(FoolCardGame
  "include/Human.hpp"
  "include/AI.hpp"
 )
+
+add_custom_target(copy_assets
+    COMMAND ${CMAKE_COMMAND} -P ${CMAKE_CURRENT_LIST_DIR}/copy_assets.cmake
+)
+add_dependencies(FoolCardGame copy_assets)
+
 target_compile_features(FoolCardGame PRIVATE cxx_std_17)
 target_link_libraries(FoolCardGame PRIVATE SFML::Graphics)
