@@ -2,6 +2,8 @@
 
 using namespace Core;
 
+unsigned Player::cnt = 0u;
+
 Player::Player()
 	: m_name("Player ")
 {
@@ -11,4 +13,9 @@ Player::Player()
 Player::Player(std::string name)
 	: m_name(name)
 {
+}
+
+void Player::take(const Card& card)
+{
+	m_cards.push_back(card);
 }
