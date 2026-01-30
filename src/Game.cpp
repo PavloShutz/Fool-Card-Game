@@ -16,9 +16,9 @@ Game::Game(std::initializer_list<std::shared_ptr<Player>> newPlayers)
 		throw std::runtime_error(msg);
 	}
 
-	for (int i = 0; i < ranks.size(); ++i)
-		for (int j = 0; j < suits.size(); ++j)
-			deck.push_back(Card{ ranks[i], suits[j] });
+	for (auto suit : suits)
+		for (auto rank : ranks)
+			deck.push_back(Card{ rank, suit });
 }
 
 void Game::run() {
