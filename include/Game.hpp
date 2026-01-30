@@ -2,6 +2,7 @@
 
 #include <initializer_list>
 #include <memory>
+#include <random>
 #include <string>
 #include <vector>
 
@@ -22,5 +23,12 @@ namespace Core {
 		Pile heap;  // "used" cards will be stored here
 
 		std::vector<std::shared_ptr<Player>> players;
+
+		bool running = false;
+
+	private: // facilities for randomness
+		static std::random_device rd;
+		static std::mt19937_64 g;
+		//static std::uniform_int_distribution; TODO: random distro for players
 	};
 } // namespace Core

@@ -1,8 +1,12 @@
+#include <algorithm>
 #include <stdexcept>
 
 #include "Game.hpp"
 
 using namespace Core;
+
+std::random_device Game::rd;
+std::mt19937_64 Game::g(rd());
 
 Game::Game(std::initializer_list<std::shared_ptr<Player>> newPlayers)
 	: players(newPlayers)
@@ -22,5 +26,11 @@ Game::Game(std::initializer_list<std::shared_ptr<Player>> newPlayers)
 }
 
 void Game::run() {
-	// TODO
+	running = true;
+
+	std::shuffle(deck.begin(), deck.end(), g);
+
+	while (running) {
+
+	}
 }
