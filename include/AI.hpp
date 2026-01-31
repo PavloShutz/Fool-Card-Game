@@ -4,6 +4,6 @@
 
 namespace Core {
 class AI : virtual public Player {
-  virtual void place(Pile& dest) override;
+  virtual void place(Pile& source) override;
 };
 }  // namespace Core
