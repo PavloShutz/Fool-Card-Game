@@ -1,3 +1,3 @@
 #include "AI.hpp"
 
-void Core::AI::place(Pile &source) { /* TODO */ }
+void Core::AI::place(Pile &dest) { /* TODO */ }

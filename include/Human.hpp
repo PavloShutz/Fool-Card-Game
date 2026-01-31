@@ -5,6 +5,6 @@
 namespace Core {
 class Human : virtual public Player {
  public:
-  virtual void place(Pile& source) override;
+  virtual void place(Pile& dest) override;
 };
 }  // namespace Core
