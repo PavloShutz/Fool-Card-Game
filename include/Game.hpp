@@ -1,13 +1,13 @@
 #pragma once
 
+#include "Card.hpp"
+#include "Player.hpp"
 #include <initializer_list>
+
 #include <memory>
 #include <random>
 #include <string>
 #include <vector>
-
-#include "Card.hpp"
-#include "Player.hpp"
 
 namespace Core {
 constexpr std::size_t minNumberOfPlayers = 2, maxNumberOfPlayers = 6;
@@ -30,12 +30,13 @@ class Game {
 
   std::vector<std::shared_ptr<Player>> players;
 
-  bool running = false;
-  Suit trump   = Suit::MAX_SUIT;
+  bool        running       = false;
+  Suit        trump         = Suit::MAX_SUIT;
+  std::size_t defenderIndex = 0;
 
  private:  // facilities for randomness
-  static std::random_device rd;
-  static std::mt19937_64    g;
-  // static std::uniform_int_distribution; TODO: random distro for players
+  static std::random_device              rd;
+  static std::mt19937_64                 g;
+  static std::uniform_int_distribution<> dist;
 };
 }  // namespace Core

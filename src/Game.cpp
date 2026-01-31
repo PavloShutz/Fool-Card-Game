@@ -5,8 +5,9 @@
 
 using namespace Core;
 
-std::random_device Game::rd;
-std::mt19937_64    Game::g(rd());
+std::random_device              Game::rd;
+std::mt19937_64                 Game::g(rd());
+std::uniform_int_distribution<> Game::dist(0, maxNumberOfPlayers - 1);
 
 Game::Game(std::initializer_list<std::shared_ptr<Player>> newPlayers)
     : players(newPlayers) {
@@ -32,7 +33,10 @@ void Game::run() {
   dealCards();
   determineTrump();
 
+  int defIdx = dist(g);
+
   while (running) {
+
   }
 }
 

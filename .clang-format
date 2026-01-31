@@ -1,6 +1,8 @@
 Language: Cpp
 BasedOnStyle: Google
-AlignConsecutiveAssignments: Consecutive
+AlignConsecutiveAssignments:
+  Enabled: true
+  AcrossEmptyLines: true
 AlignConsecutiveShortCaseStatements:
   Enabled: true
   AlignCaseColons: true
@@ -11,3 +13,5 @@ ReferenceAlignment: Right
 AllowShortIfStatementsOnASingleLine: false
 AllowShortLoopsOnASingleLine: false
 SpaceInEmptyBlock: true
+BreakConstructorInitializers: BeforeComma
+EmptyLineBeforeAccessModifier: LogicalBlock
