@@ -12,8 +12,9 @@ class Player {
   Player(std::string name);
 
  public:
-  void take(const Card& card);
-
+  void         take(const Card& card);
+  virtual void place(Pile& source) = 0;
+  
  private:
   std::string       m_name;
   std::vector<Card> m_cards;

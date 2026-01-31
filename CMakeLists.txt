@@ -19,6 +19,7 @@ add_executable(FoolCardGame
  "src/Game.cpp"
  "src/Player.cpp"
  "src/Human.cpp"
+ "src/AI.cpp"
  "include/Game.hpp"
  "include/Card.hpp"
  "include/Player.hpp"

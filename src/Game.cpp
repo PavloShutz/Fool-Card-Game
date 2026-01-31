@@ -36,7 +36,17 @@ void Game::run() {
   int defIdx = dist(g);
 
   while (running) {
+    // 1. Each player can place card(s) on the table.
+    // 2. The defending player must beat them or take cards,
+    //    letting others to place additional cards, but not
+    //    exceeding the limit of 6 (or 5 on the 1st turn) cards.
+    // 3. Players take cards and the next defending player is chosen.
+    for (int i = -1; i < players.size() - 1; ++i) {
+      if (i == 0)
+        continue;
 
+      players[defIdx + i]->place(table);
+    }
   }
 }
 

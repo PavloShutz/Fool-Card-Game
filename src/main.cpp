@@ -3,13 +3,13 @@
 #include "Game.hpp"
 
 int main() {
-  Core::Game game{
+  /*Core::Game game{
       std::make_shared<Core::Player>(),
       std::make_shared<Core::Player>(),
       std::make_shared<Core::Player>(),
       std::make_shared<Core::Player>(),
       std::make_shared<Core::Player>(),
-  };
+  };*/
 
   auto window =
       sf::RenderWindow(sf::VideoMode({1280u, 720u}), "Fool Card Game");
