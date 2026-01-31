@@ -28,9 +28,29 @@ Game::Game(std::initializer_list<std::shared_ptr<Player>> newPlayers)
 void Game::run() {
 	running = true;
 
-	std::shuffle(deck.begin(), deck.end(), g);
+	shuffleDeck();
+	dealCards();
+	determineTrump();
 
 	while (running) {
 
 	}
+}
+
+void Game::shuffleDeck() {
+	std::shuffle(deck.begin(), deck.end(), g);
+}
+
+void Game::dealCards() {
+	for (int i = 0; i < 6; ++i) {
+		for (auto& player : players) {
+			player->take(deck.back());
+			deck.pop_back();
+		}
+	}
+}
+
+void Game::determineTrump() {
+	trump = deck.back().suit;
+	std::swap(deck.front(), deck.back());
 }

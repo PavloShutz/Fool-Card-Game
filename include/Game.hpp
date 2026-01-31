@@ -17,6 +17,12 @@ namespace Core {
 		Game(std::initializer_list<std::shared_ptr<Player>> newPlayers);
 	
 		void run();
+
+	private:
+		void shuffleDeck();
+		void dealCards();
+		void determineTrump();
+
 	private:
 		Pile deck;  // place to take cards from
 		Pile table; // "battle area"
@@ -25,6 +31,8 @@ namespace Core {
 		std::vector<std::shared_ptr<Player>> players;
 
 		bool running = false;
+
+		Suit trump;
 
 	private: // facilities for randomness
 		static std::random_device rd;
