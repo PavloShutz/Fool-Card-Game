@@ -10,32 +10,32 @@
 #include "Player.hpp"
 
 namespace Core {
-	constexpr std::size_t minNumberOfPlayers = 2, maxNumberOfPlayers = 6;
+constexpr std::size_t minNumberOfPlayers = 2, maxNumberOfPlayers = 6;
 
-	class Game {
-	public:
-		Game(std::initializer_list<std::shared_ptr<Player>> newPlayers);
+class Game {
+ public:
+  Game(std::initializer_list<std::shared_ptr<Player>> newPlayers);
 
-		void run();
+  void run();
 
-	private:
-		void shuffleDeck();
-		void dealCards();
-		void determineTrump();
+ private:
+  void shuffleDeck();
+  void dealCards();
+  void determineTrump();
 
-	private:
-		Pile deck;  // place to take cards from
-		Pile table; // "battle area"
-		Pile heap;  // "used" cards will be stored here
+ private:
+  Pile deck;   // place to take cards from
+  Pile table;  // "battle area"
+  Pile heap;   // "used" cards will be stored here
 
-		std::vector<std::shared_ptr<Player>> players;
+  std::vector<std::shared_ptr<Player>> players;
 
-		bool running = false;
-		Suit trump = Suit::MAX_SUIT;
+  bool running = false;
+  Suit trump   = Suit::MAX_SUIT;
 
-	private: // facilities for randomness
-		static std::random_device rd;
-		static std::mt19937_64 g;
-		//static std::uniform_int_distribution; TODO: random distro for players
-	};
-} // namespace Core
+ private:  // facilities for randomness
+  static std::random_device rd;
+  static std::mt19937_64    g;
+  // static std::uniform_int_distribution; TODO: random distro for players
+};
+}  // namespace Core

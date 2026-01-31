@@ -1,0 +1,13 @@
+Language: Cpp
+BasedOnStyle: Google
+AlignConsecutiveAssignments: Consecutive
+AlignConsecutiveShortCaseStatements:
+  Enabled: true
+  AlignCaseColons: true
+AllowShortCaseLabelsOnASingleLine: true
+AlignConsecutiveDeclarations: true
+PointerAlignment: Right
+ReferenceAlignment: Right
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+SpaceInEmptyBlock: true

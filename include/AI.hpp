@@ -3,7 +3,5 @@
 #include "Player.hpp"
 
 namespace Core {
-	class AI : virtual public Player {
-
-	};
-} // namespace Core
+class AI : virtual public Player { };
+}  // namespace Core
