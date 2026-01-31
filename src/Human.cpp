@@ -2,4 +2,4 @@
 
 using namespace Core;
 
-void Core::Human::place(Pile &source) { /* TODO */ }
+void Core::Human::place(Pile &dest) { /* TODO */ }

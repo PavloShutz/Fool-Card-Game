@@ -13,7 +13,7 @@ class Player {
 
  public:
   void         take(const Card& card);
-  virtual void place(Pile& source) = 0;
+  virtual void place(Pile& dest) = 0;
   
  private:
   std::string       m_name;
