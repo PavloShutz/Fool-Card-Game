@@ -15,7 +15,7 @@ namespace Core {
 	class Game {
 	public:
 		Game(std::initializer_list<std::shared_ptr<Player>> newPlayers);
-	
+
 		void run();
 
 	private:
@@ -31,8 +31,7 @@ namespace Core {
 		std::vector<std::shared_ptr<Player>> players;
 
 		bool running = false;
-
-		Suit trump;
+		Suit trump = Suit::MAX_SUIT;
 
 	private: // facilities for randomness
 		static std::random_device rd;
