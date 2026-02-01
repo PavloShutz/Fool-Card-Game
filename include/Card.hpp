@@ -1,6 +1,7 @@
 #pragma once
 
 #include <vector>
+#include <utility>
 
 namespace Core {
 enum class Suit { Hearts, Spades, Diamonds, Clubs, MAX_SUIT };
@@ -31,6 +32,7 @@ struct Card {
 };
 
 using Pile = std::vector<Card>;
+using Table = std::vector<std::pair<Card, Card>>;
 
 inline bool comp(const Card& card1, const Card& card2, Suit trump) {
   if ((card1.suit != trump && card2.suit != trump) ||

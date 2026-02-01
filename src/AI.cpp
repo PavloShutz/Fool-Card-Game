@@ -2,4 +2,4 @@
 
 using namespace Core;
 
-void AI::place(Pile &dest) { /* TODO */ }
+void AI::place(Table &dest) { /* TODO */ }

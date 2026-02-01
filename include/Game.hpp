@@ -25,7 +25,7 @@ class Game {
 
  private:
   Pile deck;   // place to take cards from
-  Pile table;  // "battle area"
+  Table table;  // "battle area"
   Pile heap;   // "used" cards will be stored here
 
   std::vector<std::shared_ptr<Player>> players;
