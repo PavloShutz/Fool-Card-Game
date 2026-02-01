@@ -47,6 +47,8 @@ void Game::run() {
 
       players[defIdx + i]->place(table);
     }
+
+    players[defIdx]->beat(table);
   }
 }
 
