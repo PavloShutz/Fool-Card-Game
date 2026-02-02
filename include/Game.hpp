@@ -1,13 +1,13 @@
 #pragma once
 
-#include "Card.hpp"
-#include "Player.hpp"
 #include <initializer_list>
-
 #include <memory>
 #include <random>
 #include <string>
 #include <vector>
+
+#include "Card.hpp"
+#include "Player.hpp"
 
 namespace Core {
 constexpr std::size_t minNumberOfPlayers = 2, maxNumberOfPlayers = 6;
@@ -24,15 +24,17 @@ class Game {
   void determineTrump();
 
  private:
-  Pile deck;   // place to take cards from
+  Pile  deck;   // place to take cards from
   Table table;  // "battle area"
-  Pile heap;   // "used" cards will be stored here
+  Pile  heap;   // "used" cards will be stored here
 
   std::vector<std::shared_ptr<Player>> players;
 
   bool        running       = false;
   Suit        trump         = Suit::MAX_SUIT;
   std::size_t defenderIndex = 0;
+
+  enum State { Attack, Defend, Take, Proceed, MAX_STATE } state = MAX_STATE;
 
  private:  // facilities for randomness
   static std::random_device              rd;
