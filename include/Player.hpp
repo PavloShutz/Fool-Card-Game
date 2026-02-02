@@ -13,7 +13,7 @@ class Player {
 
  public:
   void         take(const Card& card);
-  virtual void place(Table& dest) = 0;
+  virtual bool place(Table& dest) = 0;
   virtual bool beat(Table& table) = 0;
 
  private:

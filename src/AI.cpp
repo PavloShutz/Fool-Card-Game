@@ -2,5 +2,5 @@
 
 using namespace Core;
 
-void AI::place(Table &dest) { /* TODO */ }
+bool AI::place(Table &dest) { return false; /* TODO */ }
 bool AI::beat(Table &table) { return false; /* TODO */ }

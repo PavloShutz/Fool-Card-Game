@@ -41,11 +41,13 @@ void Game::run() {
     //    letting others to place additional cards, but not
     //    exceeding the limit of 6 (or 5 on the 1st turn) cards.
     // 3. Players take cards and the next defending player is chosen.
+    bool placedAtLeastOnce = false;
     for (int i = -1; i < players.size() - 1; ++i) {
       if (i == 0)
         continue;
 
-      players[defIdx + i]->place(table);
+      if (players[defIdx + i]->place(table))
+        placedAtLeastOnce = true;
     }
 
     if (players[defIdx]->beat(table))
