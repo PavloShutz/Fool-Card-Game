@@ -3,4 +3,4 @@
 using namespace Core;
 
 void AI::place(Table &dest) { /* TODO */ }
-void AI::beat(Table &table) { /* TODO */ }
+bool AI::beat(Table &table) { return false; /* TODO */ }

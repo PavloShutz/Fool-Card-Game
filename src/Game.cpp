@@ -48,7 +48,10 @@ void Game::run() {
       players[defIdx + i]->place(table);
     }
 
-    players[defIdx]->beat(table);
+    if (players[defIdx]->beat(table))
+      /* TODO: check if other players can place cards */;
+    else
+      /* TODO: take cards and replenish for other players */;
   }
 }
 
