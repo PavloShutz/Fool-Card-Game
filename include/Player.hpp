@@ -16,6 +16,8 @@ class Player {
   virtual bool place(Table& dest) = 0;
   virtual bool beat(Table& table) = 0;
 
+  std::size_t cardsAmount() const { return m_cards.size(); }
+
  private:
   std::string       m_name;
   std::vector<Card> m_cards;

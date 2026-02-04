@@ -33,27 +33,17 @@ void Game::run() {
   dealCards();
   determineTrump();
 
-  int defIdx = dist(g);
+  int defIdx    = dist(g);
+  int refrained = 0;  // how many players refrained taking the move
 
   while (running) {
-    // 1. Each player can place card(s) on the table.
-    // 2. The defending player must beat them or take cards,
-    //    letting others to place additional cards, but not
-    //    exceeding the limit of 6 (or 5 on the 1st turn) cards.
-    // 3. Players take cards and the next defending player is chosen.
-    bool placedAtLeastOnce = false;
-    for (int i = -1; i < players.size() - 1; ++i) {
-      if (i == 0)
-        continue;
-
-      if (players[defIdx + i]->place(table))
-        placedAtLeastOnce = true;
+    switch (state) {
+      case Attack : handleAttack(); break;
+      case Defend : handleDefend(); break;
+      case Result : handleResult(); break;
+      case Cleanup: handleCleanup(); break;
+      default     : break;
     }
-
-    if (players[defIdx]->beat(table))
-      /* TODO: check if other players can place cards */;
-    else
-      /* TODO: take cards and replenish for other players */;
   }
 }
 
@@ -71,4 +61,28 @@ void Game::dealCards() {
 void Game::determineTrump() {
   trump = deck.back().suit;
   std::swap(deck.front(), deck.back());
+}
+
+void Game::handleAttack() { state = State::Defend; }
+
+void Game::handleDefend() { }
+
+void Game::handleResult() { }
+
+void Game::handleCleanup() {
+  if (checkWinCondition())
+    running = false;
+  state = State::Attack;
+}
+
+bool Game::checkWinCondition() const {
+  if (!deck.empty())
+    return false;
+
+  int cnt = 0;  // number of active players
+  for (const auto& player : players)
+    if (player->cardsAmount() > 0)
+      ++cnt;
+
+  return cnt < 2;
 }
