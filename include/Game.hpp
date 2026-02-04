@@ -23,6 +23,13 @@ class Game {
   void dealCards();
   void determineTrump();
 
+  void handleAttack();
+  void handleDefend();
+  void handleResult();
+  void handleCleanup();
+
+  bool checkWinCondition() const;
+
  private:
   Pile  deck;   // place to take cards from
   Table table;  // "battle area"
@@ -34,7 +41,7 @@ class Game {
   Suit        trump         = Suit::MAX_SUIT;
   std::size_t defenderIndex = 0;
 
-  enum State { Attack, Defend, Take, Proceed, MAX_STATE } state = MAX_STATE;
+  enum State { Attack, Defend, Result, Cleanup, MAX_STATE } state = MAX_STATE;
 
  private:  // facilities for randomness
   static std::random_device              rd;
