@@ -12,19 +12,18 @@ FetchContent_Declare(SFML
     SYSTEM)
 FetchContent_MakeAvailable(SFML)
 
-include_directories("include")
-
-add_executable(FoolCardGame
- "src/main.cpp"
+set(SOURCES 
+"src/main.cpp"
  "src/Game.cpp"
  "src/Player.cpp"
  "src/Human.cpp"
  "src/AI.cpp"
- "include/Game.hpp"
- "include/Card.hpp"
- "include/Player.hpp"
- "include/Human.hpp"
- "include/AI.hpp"
+)
+
+add_executable(FoolCardGame ${SOURCES})
+target_include_directories(FoolCardGame
+    PRIVATE
+        ${PROJECT_SOURCE_DIR}/include
 )
 
 add_custom_target(copy_assets
