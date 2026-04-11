@@ -1,10 +1,25 @@
-#pragma once
+#ifndef AI_HPP
+#define AI_HPP
+
+#include <algorithm>
 
 #include "Player.hpp"
 
-namespace Core {
-class AI : virtual public Player {
-  virtual bool place(Table& dest) override;
-  virtual bool beat(Table& table) override;
+class AI : public Player {
+ public:
+  using Player::Player;
+
+  void playEntryCards(
+      std::vector<std::pair<std::optional<Card>, std::optional<Card>>>& table,
+      Suit trump) override;
+
+  bool beatCards(
+      std::vector<std::pair<std::optional<Card>, std::optional<Card>>>& table,
+      Suit trump) override;
+
+  int addCards(
+      std::vector<std::pair<std::optional<Card>, std::optional<Card>>>& table,
+      Suit trump, int limit) override;
 };
-}  // namespace Core
+
+#endif

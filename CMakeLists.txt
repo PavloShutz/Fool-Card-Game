@@ -18,6 +18,7 @@ set(SOURCES
  "src/Player.cpp"
  "src/Human.cpp"
  "src/AI.cpp"
+ "src/GameLap.cpp"
 )
 
 add_executable(FoolCardGame ${SOURCES})
@@ -31,5 +32,5 @@ add_custom_target(copy_assets
 )
 add_dependencies(FoolCardGame copy_assets)
 
-target_compile_features(FoolCardGame PRIVATE cxx_std_17)
+target_compile_features(FoolCardGame PRIVATE cxx_std_20)
 target_link_libraries(FoolCardGame PRIVATE SFML::Graphics)

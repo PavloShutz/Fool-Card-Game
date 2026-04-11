@@ -1,27 +1,46 @@
-#pragma once
+#ifndef PLAYER_HPP
+#define PLAYER_HPP
 
+#include <optional>
 #include <string>
+#include <utility>
 #include <vector>
 
 #include "Card.hpp"
 
-namespace Core {
 class Player {
- public:
-  Player();
-  Player(std::string name);
+  std::string name{};
+
+ protected:
+  std::vector<Card> cards{};
 
  public:
-  void         take(const Card& card);
-  virtual bool place(Table& dest) = 0;
-  virtual bool beat(Table& table) = 0;
+  explicit Player(const std::string& name);
+  virtual ~Player()                = default;
 
-  std::size_t cardsAmount() const { return m_cards.size(); }
+  Player(const Player&)            = delete;
+  Player& operator=(const Player&) = delete;
 
- private:
-  std::string       m_name;
-  std::vector<Card> m_cards;
+  [[nodiscard]] std::string getName() const { return name; }
 
-  static unsigned cnt;
+  void take(const Card card) { cards.push_back(card); }
+
+  [[nodiscard]] Card getSmallestTrump(const Suit trump) const;
+
+  [[nodiscard]] int  handSize() const { return static_cast<int>(cards.size()); }
+  [[nodiscard]] bool hasCards() const { return !cards.empty(); }
+
+  virtual void playEntryCards(
+      std::vector<std::pair<std::optional<Card>, std::optional<Card>>>& table,
+      Suit trump) = 0;
+
+  [[nodiscard]] virtual bool beatCards(
+      std::vector<std::pair<std::optional<Card>, std::optional<Card>>>& table,
+      Suit trump) = 0;
+
+  [[nodiscard]] virtual int addCards(
+      std::vector<std::pair<std::optional<Card>, std::optional<Card>>>& table,
+      Suit trump, int limit) = 0;
 };
-}  // namespace Core
+
+#endif

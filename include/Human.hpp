@@ -1,11 +1,23 @@
-#pragma once
+#ifndef HUMAN_HPP
+#define HUMAN_HPP
 
 #include "Player.hpp"
 
-namespace Core {
-class Human : virtual public Player {
- public:
-  virtual bool place(Table& dest) override;
-  virtual bool beat(Table& table) override;
+class Human : public Player {
+public:
+  using Player::Player;
+
+  void playEntryCards(
+      std::vector<std::pair<std::optional<Card>, std::optional<Card>>>& table,
+      Suit trump) override;
+
+  bool beatCards(
+      std::vector<std::pair<std::optional<Card>, std::optional<Card>>>& table,
+      Suit trump) override;
+
+  int addCards(
+      std::vector<std::pair<std::optional<Card>, std::optional<Card>>>& table,
+      Suit trump, int limit) override;
 };
-}  // namespace Core
+
+#endif

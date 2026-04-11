@@ -1,6 +1,17 @@
 #include "Human.hpp"
 
-using namespace Core;
+void Human::playEntryCards(
+    std::vector<std::pair<std::optional<Card>, std::optional<Card> > > &table,
+    Suit trump) { }
 
-bool Human::place(Table &dest) { return false; /* TODO */ }
-bool Human::beat(Table &table) { return false; /* TODO */ }
+bool Human::beatCards(
+    std::vector<std::pair<std::optional<Card>, std::optional<Card> > > &table,
+    Suit                                                                trump) {
+  return false;
+}
+
+int Human::addCards(
+    std::vector<std::pair<std::optional<Card>, std::optional<Card> > > &table,
+    Suit trump, int limit) {
+  return 0;
+}

@@ -1,11 +1,14 @@
 #include "Player.hpp"
 
-using namespace Core;
+Player::Player(const std::string& name) : name(name) { }
 
-unsigned Player::cnt = 0u;
-
-Player::Player() : m_name("Player ") { m_name.append(std::to_string(cnt++)); }
-
-Player::Player(std::string name) : m_name(name) { }
-
-void Player::take(const Card& card) { m_cards.push_back(card); }
+Card Player::getSmallestTrump(const Suit trump) const {
+  Card smallest = cards.back();
+  for (const auto& card : cards) {
+    if (card.suit == trump && smallest.suit == trump &&
+        card.rank < smallest.rank) {
+      smallest = card;
+    }
+  }
+  return smallest;
+}
