@@ -2,6 +2,8 @@
 
 #include "Game.hpp"
 #include "AI.hpp"
+#include "MenuState.hpp"
+#include "StateMachine.hpp"
 
 int main() {
   std::vector<std::unique_ptr<Player> > players;
@@ -17,18 +19,16 @@ int main() {
       sf::RenderWindow(sf::VideoMode({1280u, 720u}), "Fool Card Game");
   window.setFramerateLimit(144u);
 
-  // Green felt-like background for the card table
-  constexpr sf::Color BACKGROUND_COLOR(41, 137, 24);
+  StateMachine machine;
+  machine.addState(machine.build<MenuState>(machine, window), true);
 
-  while (window.isOpen()) {
-    while (const std::optional event = window.pollEvent()) {
-      if (event->is<sf::Event::Closed>()) {
-        window.close();
-      }
-    }
-
-    window.clear(BACKGROUND_COLOR);
-
-    window.display();
+  sf::Clock clock;
+  while (window.isOpen() && machine.isRunning()) {
+    machine.processStateChanges();
+    const float deltaTime = clock.restart().asSeconds();
+    machine.nextState().update(deltaTime);
+    machine.nextState().draw();
   }
+
+  window.close();
 }

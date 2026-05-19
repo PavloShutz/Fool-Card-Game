@@ -19,6 +19,9 @@ set(SOURCES
  "src/Human.cpp"
  "src/AI.cpp"
  "src/GameLap.cpp"
+ "src/StateMachine.cpp"
+ "src/MenuState.cpp"
+ "src/GamePlayState.cpp"
 )
 
 add_executable(FoolCardGame ${SOURCES})
