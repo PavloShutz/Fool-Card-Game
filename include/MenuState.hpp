@@ -9,12 +9,17 @@
 #include "GameState.hpp"
 
 struct Button {
+  enum class Action {
+    StartGame,
+    Quit
+  };
+
   sf::RectangleShape shape;
   sf::Text text;
-  std::string label;
+  Action action;
   bool isHovered{false};
 
-  Button(const std::string &label, float x, float y, float width, float height,
+  Button(Action action, const std::string &label, float x, float y, float width, float height,
          const sf::Font &font);
   bool isMouseOver(float mouseX, float mouseY) const;
   void setHovered(bool hovered);

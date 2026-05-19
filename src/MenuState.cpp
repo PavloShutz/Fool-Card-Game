@@ -6,16 +6,16 @@
 #include "GamePlayState.hpp"
 #include "StateMachine.hpp"
 
-Button::Button(const std::string &buttonLabel, float x, float y, float width, float height,
-               const sf::Font &font)
-    : text(font), label(buttonLabel) {
+Button::Button(Action buttonAction, const std::string &buttonLabel, float x, float y, float width,
+               float height, const sf::Font &font)
+    : text(font), action(buttonAction) {
   shape.setSize({width, height});
   shape.setPosition({x, y});
   shape.setFillColor(sf::Color(70, 130, 180));
   shape.setOutlineThickness(2.f);
   shape.setOutlineColor(sf::Color::White);
 
-  text.setString(label);
+  text.setString(buttonLabel);
   text.setCharacterSize(24);
   text.setFillColor(sf::Color::White);
 
@@ -60,7 +60,7 @@ MenuState::MenuState(StateMachine &machine, sf::RenderWindow &window)
       font = sf::Font(path);
       hasFont = true;
       break;
-    } catch (...) {
+    } catch (const std::exception &) {
       hasFont = false;
     }
   }
@@ -88,9 +88,10 @@ void MenuState::recreateButtons() {
   const float startX = (windowWidth - buttonWidth) / 2.f;
   const float startY = (windowHeight - totalHeight) / 2.f;
 
-  buttons.emplace_back("Start Game", startX, startY, buttonWidth, buttonHeight, font);
-  buttons.emplace_back("Quit", startX, startY + buttonHeight + buttonGap, buttonWidth,
+  buttons.emplace_back(Button::Action::StartGame, "Start Game", startX, startY, buttonWidth,
                        buttonHeight, font);
+  buttons.emplace_back(Button::Action::Quit, "Quit", startX, startY + buttonHeight + buttonGap,
+                       buttonWidth, buttonHeight, font);
 }
 
 void MenuState::handleMouseMove(float mouseX, float mouseY) {
@@ -105,9 +106,9 @@ void MenuState::handleMouseClick(float mouseX, float mouseY) {
       continue;
     }
 
-    if (button.label == "Start Game") {
+    if (button.action == Button::Action::StartGame) {
       machine.addState(machine.build<GamePlayState>(machine, window), true);
-    } else if (button.label == "Quit") {
+    } else if (button.action == Button::Action::Quit) {
       machine.quit();
     }
     return;

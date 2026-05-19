@@ -1,5 +1,7 @@
 #include "StateMachine.hpp"
 
+#include <stdexcept>
+
 #include "GameState.hpp"
 
 void StateMachine::addState(std::unique_ptr<GameState> state, bool replace) {
@@ -39,10 +41,18 @@ void StateMachine::processStateChanges() {
 }
 
 GameState &StateMachine::nextState() const {
+  if (states.empty()) {
+    throw std::runtime_error("StateMachine::nextState called with no active states");
+  }
+
   return *states.back();
 }
 
 GameState &StateMachine::lastState() const {
+  if (states.empty()) {
+    throw std::runtime_error("StateMachine::lastState called with no active states");
+  }
+
   if (states.size() < 2) {
     return *states.back();
   }
