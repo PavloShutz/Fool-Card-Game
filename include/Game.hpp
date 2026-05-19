@@ -1,21 +1,25 @@
 #ifndef GAME_HPP
 #define GAME_HPP
 
+#include <SFML/Graphics/RenderWindow.hpp>
 #include <memory>
 
-#include "Player.hpp"
 #include "GameLap.hpp"
+#include "Player.hpp"
+#include "StateMachine.hpp"
 
 class Game {
   std::unique_ptr<GameLap> gameLap;
 
-public:
+  sf::RenderWindow window;
+  StateMachine     machine;
+
+ public:
   explicit Game(std::vector<std::unique_ptr<Player> > players);
 
   ~Game() = default;
 
-  void init() const;
-  void run() const;
+  void run();
 };
 
 #endif

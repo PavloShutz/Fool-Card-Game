@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "FoolCardGame.dir\\Debug\\Game.obj",
+            "outputs": [
+                "C:\\Users\\User\\projects\\Fool-Card-Game\\cmake-build-debug\\FoolCardGame.dir\\Debug\\vc143.pdb",
+                "FoolCardGame.dir\\Debug\\"
+            ],
+            "requires": []
+        }
+    ]
+}

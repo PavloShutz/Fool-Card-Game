@@ -1,7 +1,3 @@
-//
-// Created by User on 11.04.2026.
-//
-
 #include "GameLap.hpp"
 
 #include <algorithm>
@@ -27,8 +23,7 @@ void GameLap::transitionToState(State *newState) {
   if (!newState)
     return;
 
-  delete state;
-  state = newState;
+  state.reset(newState);
   state->setGameLap(this);
 }
 
@@ -49,9 +44,9 @@ void StartState::execute() {
   trump       = deck.back().suit;
   std::swap(deck.back(), deck.front());
 
-  Card smallest = players.back()->getSmallestTrump(trump);
+  Card smallest = players.back()->getWeakestTrump(trump);
   for (int i = 0; i < players.size(); ++i) {
-    if (const Card temp = players[i]->getSmallestTrump(trump);
+    if (const Card temp = players[i]->getWeakestTrump(trump);
         temp.rank < smallest.rank) {
       smallest                        = temp;
       gameLap->context.entryPlayerIdx = i;

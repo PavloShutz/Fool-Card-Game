@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/ogg-subbuild/CMakeFiles/ogg-populate"
+		},
+		{
+			"file" : "C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/ogg-subbuild/CMakeFiles/e2200a8019cb5662fe60df4d1dd18535/ogg-populate.rule"
+		},
+		{
+			"file" : "C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/ogg-subbuild/CMakeFiles/1ccfe6b7ce6f23bbe6a7b67311798973/ogg-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/ogg-subbuild/CMakeFiles/187023d29111c446da2fbafbee9e1654/ogg-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/ogg-subbuild/CMakeFiles/187023d29111c446da2fbafbee9e1654/ogg-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/ogg-subbuild/CMakeFiles/187023d29111c446da2fbafbee9e1654/ogg-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/ogg-subbuild/CMakeFiles/187023d29111c446da2fbafbee9e1654/ogg-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/ogg-subbuild/CMakeFiles/187023d29111c446da2fbafbee9e1654/ogg-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/ogg-subbuild/CMakeFiles/187023d29111c446da2fbafbee9e1654/ogg-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/ogg-subbuild/CMakeFiles/187023d29111c446da2fbafbee9e1654/ogg-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/ogg-subbuild/CMakeFiles/187023d29111c446da2fbafbee9e1654/ogg-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ogg-populate"
+		],
+		"name" : "ogg-populate"
+	}
+}

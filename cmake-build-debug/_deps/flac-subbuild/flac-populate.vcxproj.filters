@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\_deps\flac-subbuild\CMakeFiles\7521d99a3eaafcf0970585a6ac12c8d9\flac-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\_deps\flac-subbuild\CMakeFiles\7521d99a3eaafcf0970585a6ac12c8d9\flac-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\_deps\flac-subbuild\CMakeFiles\7521d99a3eaafcf0970585a6ac12c8d9\flac-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\_deps\flac-subbuild\CMakeFiles\7521d99a3eaafcf0970585a6ac12c8d9\flac-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\_deps\flac-subbuild\CMakeFiles\7521d99a3eaafcf0970585a6ac12c8d9\flac-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\_deps\flac-subbuild\CMakeFiles\7521d99a3eaafcf0970585a6ac12c8d9\flac-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\_deps\flac-subbuild\CMakeFiles\7521d99a3eaafcf0970585a6ac12c8d9\flac-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\_deps\flac-subbuild\CMakeFiles\7521d99a3eaafcf0970585a6ac12c8d9\flac-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\_deps\flac-subbuild\CMakeFiles\79dfe404a62af61143556f693154bff5\flac-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\_deps\flac-subbuild\CMakeFiles\eb9ab5b57a4c4af8bc143612f3a4e1fe\flac-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\_deps\flac-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\_deps\flac-subbuild\CMakeFiles\flac-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{46D3A1A3-9C75-309B-A200-4C29BE61551D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

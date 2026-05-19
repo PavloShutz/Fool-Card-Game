@@ -1,0 +1,20 @@
+^C:\USERS\USER\PROJECTS\FOOL-CARD-GAME\CMAKE-BUILD-DEBUG\CMAKEFILES\BF2B7DA886A0B3D140759DBD6E9AFC0E\COPY_ASSETS.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/User/projects/Fool-Card-Game/copy_assets.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\USER\PROJECTS\FOOL-CARD-GAME\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/User/projects/Fool-Card-Game -BC:/Users/User/projects/Fool-Card-Game/cmake-build-debug --check-stamp-file C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,10 @@
+^C:\USERS\USER\PROJECTS\FOOL-CARD-GAME\CMAKE-BUILD-DEBUG\CMAKEFILES\BF2B7DA886A0B3D140759DBD6E9AFC0E\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/User/projects/Fool-Card-Game -BC:/Users/User/projects/Fool-Card-Game/cmake-build-debug --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/FoolCardGame.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,14 @@
+# Target labels
+ sfml-populate
+# Source files and their labels
+C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/sfml-subbuild/CMakeFiles/sfml-populate
+C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/sfml-subbuild/CMakeFiles/754eb0b5243675ae44b7277bc178f9c7/sfml-populate.rule
+C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/sfml-subbuild/CMakeFiles/fb3e3f73901d1f5391891d448d56a483/sfml-populate-complete.rule
+C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/sfml-subbuild/CMakeFiles/c09751fd23ed951e46d55037bc0b59a7/sfml-populate-build.rule
+C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/sfml-subbuild/CMakeFiles/c09751fd23ed951e46d55037bc0b59a7/sfml-populate-configure.rule
+C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/sfml-subbuild/CMakeFiles/c09751fd23ed951e46d55037bc0b59a7/sfml-populate-download.rule
+C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/sfml-subbuild/CMakeFiles/c09751fd23ed951e46d55037bc0b59a7/sfml-populate-install.rule
+C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/sfml-subbuild/CMakeFiles/c09751fd23ed951e46d55037bc0b59a7/sfml-populate-mkdir.rule
+C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/sfml-subbuild/CMakeFiles/c09751fd23ed951e46d55037bc0b59a7/sfml-populate-patch.rule
+C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/sfml-subbuild/CMakeFiles/c09751fd23ed951e46d55037bc0b59a7/sfml-populate-test.rule
+C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/sfml-subbuild/CMakeFiles/c09751fd23ed951e46d55037bc0b59a7/sfml-populate-update.rule

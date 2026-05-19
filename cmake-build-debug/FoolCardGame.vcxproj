@@ -1,0 +1,420 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F7007173-C541-3653-91D7-7CF65087BAC5}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>FoolCardGame</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">FoolCardGame.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">FoolCardGame</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">FoolCardGame.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">FoolCardGame</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">FoolCardGame.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">FoolCardGame</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">FoolCardGame.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">FoolCardGame</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\User\projects\Fool-Card-Game\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/sfml-src/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;SFML_STATIC;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>true</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;SFML_STATIC;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\User\projects\Fool-Card-Game\include;C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\User\projects\Fool-Card-Game\include;C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>_deps\sfml-build\lib\Debug\sfml-graphics-s-d.lib;_deps\sfml-build\lib\Debug\sfml-window-s-d.lib;_deps\sfml-build\lib\Debug\sfml-system-s-d.lib;opengl32.lib;winmm.lib;gdi32.lib;_deps\sfml-build\lib\Debug\freetyped.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/Debug/FoolCardGame.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/bin/Debug/FoolCardGame.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\User\projects\Fool-Card-Game\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/sfml-src/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SFML_STATIC;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>true</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SFML_STATIC;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\User\projects\Fool-Card-Game\include;C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\User\projects\Fool-Card-Game\include;C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>_deps\sfml-build\lib\Release\sfml-graphics-s.lib;_deps\sfml-build\lib\Release\sfml-window-s.lib;_deps\sfml-build\lib\Release\sfml-system-s.lib;opengl32.lib;winmm.lib;gdi32.lib;_deps\sfml-build\lib\Release\freetype.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/Release/FoolCardGame.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/bin/Release/FoolCardGame.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\User\projects\Fool-Card-Game\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/sfml-src/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SFML_STATIC;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>true</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SFML_STATIC;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\User\projects\Fool-Card-Game\include;C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\User\projects\Fool-Card-Game\include;C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>_deps\sfml-build\lib\MinSizeRel\sfml-graphics-s.lib;_deps\sfml-build\lib\MinSizeRel\sfml-window-s.lib;_deps\sfml-build\lib\MinSizeRel\sfml-system-s.lib;opengl32.lib;winmm.lib;gdi32.lib;_deps\sfml-build\lib\MinSizeRel\freetype.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/MinSizeRel/FoolCardGame.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/bin/MinSizeRel/FoolCardGame.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\User\projects\Fool-Card-Game\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/sfml-src/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SFML_STATIC;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>true</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SFML_STATIC;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\User\projects\Fool-Card-Game\include;C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\User\projects\Fool-Card-Game\include;C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>_deps\sfml-build\lib\RelWithDebInfo\sfml-graphics-s.lib;_deps\sfml-build\lib\RelWithDebInfo\sfml-window-s.lib;_deps\sfml-build\lib\RelWithDebInfo\sfml-system-s.lib;opengl32.lib;winmm.lib;gdi32.lib;_deps\sfml-build\lib\RelWithDebInfo\freetype.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/RelWithDebInfo/FoolCardGame.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/bin/RelWithDebInfo/FoolCardGame.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\User\projects\Fool-Card-Game\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/User/projects/Fool-Card-Game/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/User/projects/Fool-Card-Game -BC:/Users/User/projects/Fool-Card-Game/cmake-build-debug --check-stamp-file C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\WindowsPaths.cmake;C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\CMakeFiles\4.2.1\CMakeCXXCompiler.cmake;C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\CMakeFiles\4.2.1\CMakeRCCompiler.cmake;C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\CMakeFiles\4.2.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/User/projects/Fool-Card-Game/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/User/projects/Fool-Card-Game -BC:/Users/User/projects/Fool-Card-Game/cmake-build-debug --check-stamp-file C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\WindowsPaths.cmake;C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\CMakeFiles\4.2.1\CMakeCXXCompiler.cmake;C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\CMakeFiles\4.2.1\CMakeRCCompiler.cmake;C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\CMakeFiles\4.2.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/User/projects/Fool-Card-Game/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/User/projects/Fool-Card-Game -BC:/Users/User/projects/Fool-Card-Game/cmake-build-debug --check-stamp-file C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\WindowsPaths.cmake;C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\CMakeFiles\4.2.1\CMakeCXXCompiler.cmake;C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\CMakeFiles\4.2.1\CMakeRCCompiler.cmake;C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\CMakeFiles\4.2.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/User/projects/Fool-Card-Game/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/User/projects/Fool-Card-Game -BC:/Users/User/projects/Fool-Card-Game/cmake-build-debug --check-stamp-file C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Platform\WindowsPaths.cmake;C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\CMakeFiles\4.2.1\CMakeCXXCompiler.cmake;C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\CMakeFiles\4.2.1\CMakeRCCompiler.cmake;C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\CMakeFiles\4.2.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\User\projects\Fool-Card-Game\src\main.cpp" />
+    <ClCompile Include="C:\Users\User\projects\Fool-Card-Game\src\Game.cpp" />
+    <ClCompile Include="C:\Users\User\projects\Fool-Card-Game\src\Player.cpp" />
+    <ClCompile Include="C:\Users\User\projects\Fool-Card-Game\src\Human.cpp" />
+    <ClCompile Include="C:\Users\User\projects\Fool-Card-Game\src\AI.cpp" />
+    <ClCompile Include="C:\Users\User\projects\Fool-Card-Game\src\GameLap.cpp" />
+    <ClCompile Include="C:\Users\User\projects\Fool-Card-Game\src\StateMachine.cpp" />
+    <ClCompile Include="C:\Users\User\projects\Fool-Card-Game\src\GameState.cpp" />
+    <ClCompile Include="C:\Users\User\projects\Fool-Card-Game\src\MenuState.cpp" />
+    <ClCompile Include="C:\Users\User\projects\Fool-Card-Game\src\GamePlayState.cpp" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\ZERO_CHECK.vcxproj">
+      <Project>{AF68CCF9-7897-3BF5-8F68-F992D32414B5}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\copy_assets.vcxproj">
+      <Project>{70B8DEFE-941B-34E0-A248-EC2189F6CAFD}</Project>
+      <Name>copy_assets</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\_deps\freetype-build\freetype.vcxproj">
+      <Project>{E51E631E-6973-32D9-BA5D-6A414F5CC329}</Project>
+      <Name>freetype</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\_deps\sfml-build\src\SFML\Graphics\sfml-graphics.vcxproj">
+      <Project>{8C7B2C96-1E75-3DAD-8B3B-DDEEC327F267}</Project>
+      <Name>sfml-graphics</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\_deps\sfml-build\src\SFML\System\sfml-system.vcxproj">
+      <Project>{70518731-CC38-33A2-9294-BBD77F5F49E6}</Project>
+      <Name>sfml-system</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\_deps\sfml-build\src\SFML\Window\sfml-window.vcxproj">
+      <Project>{FC0E6A5D-0663-3BEF-89E2-6A224497BA19}</Project>
+      <Name>sfml-window</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

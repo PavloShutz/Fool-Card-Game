@@ -25,7 +25,8 @@ class Player {
 
   void take(const Card card) { cards.push_back(card); }
 
-  [[nodiscard]] Card getSmallestTrump(const Suit trump) const;
+  [[nodiscard]] Card getWeakestTrump(Suit trump) const;
+  [[nodiscard]] Card getWeakestCard(Suit trump) const;
 
   [[nodiscard]] int  handSize() const { return static_cast<int>(cards.size()); }
   [[nodiscard]] bool hasCards() const { return !cards.empty(); }

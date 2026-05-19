@@ -1,0 +1,10 @@
+^C:\USERS\USER\PROJECTS\FOOL-CARD-GAME\CMAKE-BUILD-DEBUG\_DEPS\FLAC-SUBBUILD\CMAKEFILES\EB9AB5B57A4C4AF8BC143612F3A4E1FE\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/flac-subbuild -BC:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/flac-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/flac-subbuild/flac-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

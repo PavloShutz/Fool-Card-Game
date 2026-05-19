@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/vorbis-subbuild/CMakeFiles/vorbis-populate"
+		},
+		{
+			"file" : "C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/vorbis-subbuild/CMakeFiles/76e21cd31e60e01db6b98d7503fc718e/vorbis-populate.rule"
+		},
+		{
+			"file" : "C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/vorbis-subbuild/CMakeFiles/5301ae63a7223c96c811ecc1f8fd4e92/vorbis-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/vorbis-subbuild/CMakeFiles/39024a3794d569d5546cbce78ef1a721/vorbis-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/vorbis-subbuild/CMakeFiles/39024a3794d569d5546cbce78ef1a721/vorbis-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/vorbis-subbuild/CMakeFiles/39024a3794d569d5546cbce78ef1a721/vorbis-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/vorbis-subbuild/CMakeFiles/39024a3794d569d5546cbce78ef1a721/vorbis-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/vorbis-subbuild/CMakeFiles/39024a3794d569d5546cbce78ef1a721/vorbis-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/vorbis-subbuild/CMakeFiles/39024a3794d569d5546cbce78ef1a721/vorbis-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/vorbis-subbuild/CMakeFiles/39024a3794d569d5546cbce78ef1a721/vorbis-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/vorbis-subbuild/CMakeFiles/39024a3794d569d5546cbce78ef1a721/vorbis-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vorbis-populate"
+		],
+		"name" : "vorbis-populate"
+	}
+}

@@ -1,0 +1,14 @@
+# Target labels
+ ogg-populate
+# Source files and their labels
+C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/ogg-subbuild/CMakeFiles/ogg-populate
+C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/ogg-subbuild/CMakeFiles/e2200a8019cb5662fe60df4d1dd18535/ogg-populate.rule
+C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/ogg-subbuild/CMakeFiles/1ccfe6b7ce6f23bbe6a7b67311798973/ogg-populate-complete.rule
+C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/ogg-subbuild/CMakeFiles/187023d29111c446da2fbafbee9e1654/ogg-populate-build.rule
+C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/ogg-subbuild/CMakeFiles/187023d29111c446da2fbafbee9e1654/ogg-populate-configure.rule
+C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/ogg-subbuild/CMakeFiles/187023d29111c446da2fbafbee9e1654/ogg-populate-download.rule
+C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/ogg-subbuild/CMakeFiles/187023d29111c446da2fbafbee9e1654/ogg-populate-install.rule
+C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/ogg-subbuild/CMakeFiles/187023d29111c446da2fbafbee9e1654/ogg-populate-mkdir.rule
+C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/ogg-subbuild/CMakeFiles/187023d29111c446da2fbafbee9e1654/ogg-populate-patch.rule
+C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/ogg-subbuild/CMakeFiles/187023d29111c446da2fbafbee9e1654/ogg-populate-test.rule
+C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/ogg-subbuild/CMakeFiles/187023d29111c446da2fbafbee9e1654/ogg-populate-update.rule

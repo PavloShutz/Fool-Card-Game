@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\_deps\ogg-subbuild\CMakeFiles\e2200a8019cb5662fe60df4d1dd18535\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D576AA73-B353-327B-B56C-187F75113A6D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

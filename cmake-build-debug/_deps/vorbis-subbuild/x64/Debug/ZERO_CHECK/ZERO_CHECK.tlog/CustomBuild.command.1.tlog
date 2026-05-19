@@ -1,0 +1,10 @@
+^C:\USERS\USER\PROJECTS\FOOL-CARD-GAME\CMAKE-BUILD-DEBUG\_DEPS\VORBIS-SUBBUILD\CMAKEFILES\76E21CD31E60E01DB6B98D7503FC718E\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/vorbis-subbuild -BC:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/vorbis-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

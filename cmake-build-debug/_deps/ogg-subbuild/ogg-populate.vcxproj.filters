@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\_deps\ogg-subbuild\CMakeFiles\187023d29111c446da2fbafbee9e1654\ogg-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\_deps\ogg-subbuild\CMakeFiles\187023d29111c446da2fbafbee9e1654\ogg-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\_deps\ogg-subbuild\CMakeFiles\187023d29111c446da2fbafbee9e1654\ogg-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\_deps\ogg-subbuild\CMakeFiles\187023d29111c446da2fbafbee9e1654\ogg-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\_deps\ogg-subbuild\CMakeFiles\187023d29111c446da2fbafbee9e1654\ogg-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\_deps\ogg-subbuild\CMakeFiles\187023d29111c446da2fbafbee9e1654\ogg-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\_deps\ogg-subbuild\CMakeFiles\187023d29111c446da2fbafbee9e1654\ogg-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\_deps\ogg-subbuild\CMakeFiles\187023d29111c446da2fbafbee9e1654\ogg-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\_deps\ogg-subbuild\CMakeFiles\1ccfe6b7ce6f23bbe6a7b67311798973\ogg-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\_deps\ogg-subbuild\CMakeFiles\e2200a8019cb5662fe60df4d1dd18535\ogg-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\_deps\ogg-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\_deps\ogg-subbuild\CMakeFiles\ogg-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D576AA73-B353-327B-B56C-187F75113A6D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

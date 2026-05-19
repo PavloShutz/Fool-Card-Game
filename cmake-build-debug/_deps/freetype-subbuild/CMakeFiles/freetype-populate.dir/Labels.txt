@@ -1,0 +1,14 @@
+# Target labels
+ freetype-populate
+# Source files and their labels
+C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/freetype-subbuild/CMakeFiles/freetype-populate
+C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/freetype-subbuild/CMakeFiles/a2fb5f68424a6735241aef66de02af87/freetype-populate.rule
+C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/freetype-subbuild/CMakeFiles/183b17f2be3ca2c9bf93ee4e6e201135/freetype-populate-complete.rule
+C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/freetype-subbuild/CMakeFiles/6b499ba3a9fa7ffa29bd461d31518681/freetype-populate-build.rule
+C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/freetype-subbuild/CMakeFiles/6b499ba3a9fa7ffa29bd461d31518681/freetype-populate-configure.rule
+C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/freetype-subbuild/CMakeFiles/6b499ba3a9fa7ffa29bd461d31518681/freetype-populate-download.rule
+C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/freetype-subbuild/CMakeFiles/6b499ba3a9fa7ffa29bd461d31518681/freetype-populate-install.rule
+C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/freetype-subbuild/CMakeFiles/6b499ba3a9fa7ffa29bd461d31518681/freetype-populate-mkdir.rule
+C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/freetype-subbuild/CMakeFiles/6b499ba3a9fa7ffa29bd461d31518681/freetype-populate-patch.rule
+C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/freetype-subbuild/CMakeFiles/6b499ba3a9fa7ffa29bd461d31518681/freetype-populate-test.rule
+C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/freetype-subbuild/CMakeFiles/6b499ba3a9fa7ffa29bd461d31518681/freetype-populate-update.rule

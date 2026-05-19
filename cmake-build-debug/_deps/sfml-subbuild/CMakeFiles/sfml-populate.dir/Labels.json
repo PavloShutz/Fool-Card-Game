@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/sfml-subbuild/CMakeFiles/sfml-populate"
+		},
+		{
+			"file" : "C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/sfml-subbuild/CMakeFiles/754eb0b5243675ae44b7277bc178f9c7/sfml-populate.rule"
+		},
+		{
+			"file" : "C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/sfml-subbuild/CMakeFiles/fb3e3f73901d1f5391891d448d56a483/sfml-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/sfml-subbuild/CMakeFiles/c09751fd23ed951e46d55037bc0b59a7/sfml-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/sfml-subbuild/CMakeFiles/c09751fd23ed951e46d55037bc0b59a7/sfml-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/sfml-subbuild/CMakeFiles/c09751fd23ed951e46d55037bc0b59a7/sfml-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/sfml-subbuild/CMakeFiles/c09751fd23ed951e46d55037bc0b59a7/sfml-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/sfml-subbuild/CMakeFiles/c09751fd23ed951e46d55037bc0b59a7/sfml-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/sfml-subbuild/CMakeFiles/c09751fd23ed951e46d55037bc0b59a7/sfml-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/sfml-subbuild/CMakeFiles/c09751fd23ed951e46d55037bc0b59a7/sfml-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/User/projects/Fool-Card-Game/cmake-build-debug/_deps/sfml-subbuild/CMakeFiles/c09751fd23ed951e46d55037bc0b59a7/sfml-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"sfml-populate"
+		],
+		"name" : "sfml-populate"
+	}
+}

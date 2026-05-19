@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\_deps\vorbis-subbuild\CMakeFiles\76e21cd31e60e01db6b98d7503fc718e\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{12E90483-1E9C-3DF4-B4E0-FE4FCB6E5623}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

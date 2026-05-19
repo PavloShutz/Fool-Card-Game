@@ -56,21 +56,18 @@ public:
 };
 
 class GameLap {
-  State *state{nullptr};
+  std::unique_ptr<State> state;
 
 public:
   GameContext context;
 
   GameLap() = default;
-
   explicit GameLap(State *state, std::vector<std::unique_ptr<Player> > players);
 
+  ~GameLap() = default;
+  
   void initContext() {
     initDeck();
-  }
-
-  ~GameLap() {
-    delete state;
   }
 
   void transitionToState(State *newState);

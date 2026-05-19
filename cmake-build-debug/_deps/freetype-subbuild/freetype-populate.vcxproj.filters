@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\_deps\freetype-subbuild\CMakeFiles\6b499ba3a9fa7ffa29bd461d31518681\freetype-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\_deps\freetype-subbuild\CMakeFiles\6b499ba3a9fa7ffa29bd461d31518681\freetype-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\_deps\freetype-subbuild\CMakeFiles\6b499ba3a9fa7ffa29bd461d31518681\freetype-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\_deps\freetype-subbuild\CMakeFiles\6b499ba3a9fa7ffa29bd461d31518681\freetype-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\_deps\freetype-subbuild\CMakeFiles\6b499ba3a9fa7ffa29bd461d31518681\freetype-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\_deps\freetype-subbuild\CMakeFiles\6b499ba3a9fa7ffa29bd461d31518681\freetype-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\_deps\freetype-subbuild\CMakeFiles\6b499ba3a9fa7ffa29bd461d31518681\freetype-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\_deps\freetype-subbuild\CMakeFiles\6b499ba3a9fa7ffa29bd461d31518681\freetype-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\_deps\freetype-subbuild\CMakeFiles\183b17f2be3ca2c9bf93ee4e6e201135\freetype-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\_deps\freetype-subbuild\CMakeFiles\a2fb5f68424a6735241aef66de02af87\freetype-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\_deps\freetype-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\User\projects\Fool-Card-Game\cmake-build-debug\_deps\freetype-subbuild\CMakeFiles\freetype-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E4F8FA90-457C-3067-9441-7F8D5AF6D249}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
